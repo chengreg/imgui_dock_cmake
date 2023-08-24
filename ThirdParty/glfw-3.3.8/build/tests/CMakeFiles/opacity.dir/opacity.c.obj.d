@@ -1,0 +1,36 @@
+tests/CMakeFiles/opacity.dir/opacity.c.obj: \
+ E:\Dev\LearnCenter\imgui-dock-cmake\ThirdParty\glfw-3.3.8\tests\opacity.c \
+ E:/Dev/LearnCenter/imgui-dock-cmake/ThirdParty/glfw-3.3.8/deps/glad/gl.h \
+ E:/Dev/LearnCenter/imgui-dock-cmake/ThirdParty/glfw-3.3.8/deps/glad/khrplatform.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\mingw\x86_64-w64-mingw32\include\vadefs.h \
+ c:\mingw\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h \
+ E:/Dev/LearnCenter/imgui-dock-cmake/ThirdParty/glfw-3.3.8/include/GLFW/glfw3.h \
+ E:/Dev/LearnCenter/imgui-dock-cmake/ThirdParty/glfw-3.3.8/deps/nuklear.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdarg.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdarg.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_stdarg.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdlib.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\limits.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\syslimits.h \
+ c:\mingw\x86_64-w64-mingw32\include\limits.h \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
+ c:\mingw\x86_64-w64-mingw32\include\malloc.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm_malloc.h \
+ c:\mingw\x86_64-w64-mingw32\include\errno.h \
+ c:\mingw\x86_64-w64-mingw32\include\assert.h \
+ E:/Dev/LearnCenter/imgui-dock-cmake/ThirdParty/glfw-3.3.8/deps/nuklear_glfw_gl2.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdio.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_off_t.h \
+ c:\mingw\x86_64-w64-mingw32\include\swprintf.inl \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\stdio_s.h
