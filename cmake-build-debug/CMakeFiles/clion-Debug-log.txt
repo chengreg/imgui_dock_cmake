@@ -1,5 +1,9 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake -B /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/chengangqiang/Desktop/imgui_dock_cmake -B /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_subdirectory):
+  add_subdirectory given source
+  "/Users/chengangqiang/Desktop/imgui_dock_cmake/Tests" which is not an
+  existing directory.
+
+
 当前使用的C++编译器: AppleClang
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+-- Configuring incomplete, errors occurred!

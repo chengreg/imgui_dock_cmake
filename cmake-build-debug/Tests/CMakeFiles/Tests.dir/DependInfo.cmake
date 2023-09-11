@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/test_freetype.cpp" "Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o" "gcc" "Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o.d"
+  "/Users/chengangqiang/Desktop/imgui_dock_cmake/Tests/test_freetype.cpp" "Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o" "gcc" "Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

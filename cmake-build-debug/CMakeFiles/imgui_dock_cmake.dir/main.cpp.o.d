@@ -1,5 +1,5 @@
 CMakeFiles/imgui_dock_cmake.dir/main.cpp.o: \
-  /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/main.cpp \
+  /Users/chengangqiang/Desktop/imgui_dock_cmake/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -731,5 +731,4 @@ CMakeFiles/imgui_dock_cmake.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Include/Editor/Editor.h \
-  /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/test_freetype.h
+  /Users/chengangqiang/Desktop/imgui_dock_cmake/Include/Editor/Editor.h

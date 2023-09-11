@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests
+# Install script for directory: /Users/chengangqiang/Desktop/imgui_dock_cmake/Tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

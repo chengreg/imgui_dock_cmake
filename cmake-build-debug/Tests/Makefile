@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake
+CMAKE_SOURCE_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests//CMakeFiles/progress.marks
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles 0
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests//CMakeFiles/progress.marks
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/clean
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Tests/CMakeFiles/Tests.dir/rule:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/CMakeFiles/Tests.dir/rule
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests/CMakeFiles/Tests.dir/rule
 .PHONY : Tests/CMakeFiles/Tests.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Tests: Tests/CMakeFiles/Tests.dir/rule
 
 # fast build rule for target.
 Tests/fast:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/build
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/build
 .PHONY : Tests/fast
 
 test_freetype.o: test_freetype.cpp.o
@@ -135,7 +135,7 @@ test_freetype.o: test_freetype.cpp.o
 
 # target to build an object file
 test_freetype.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o
 .PHONY : test_freetype.cpp.o
 
 test_freetype.i: test_freetype.cpp.i
@@ -143,7 +143,7 @@ test_freetype.i: test_freetype.cpp.i
 
 # target to preprocess a source file
 test_freetype.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/test_freetype.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/test_freetype.cpp.i
 .PHONY : test_freetype.cpp.i
 
 test_freetype.s: test_freetype.cpp.s
@@ -151,7 +151,7 @@ test_freetype.s: test_freetype.cpp.s
 
 # target to generate assembly for a file
 test_freetype.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/test_freetype.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/test_freetype.cpp.s
 .PHONY : test_freetype.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

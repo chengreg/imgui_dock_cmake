@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/ThirdParty/freetype/include
+CXX_INCLUDES = -I/Users/chengangqiang/Desktop/imgui_dock_cmake/ThirdParty/freetype/include
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
 

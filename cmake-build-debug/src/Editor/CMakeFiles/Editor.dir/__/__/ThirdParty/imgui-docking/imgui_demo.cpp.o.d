@@ -1,7 +1,7 @@
 src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.o: \
-  /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/ThirdParty/imgui-docking/imgui_demo.cpp \
-  /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/ThirdParty/imgui-docking/imgui.h \
-  /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/ThirdParty/imgui-docking/imconfig.h \
+  /Users/chengangqiang/Desktop/imgui_dock_cmake/ThirdParty/imgui-docking/imgui_demo.cpp \
+  /Users/chengangqiang/Desktop/imgui_dock_cmake/ThirdParty/imgui-docking/imgui.h \
+  /Users/chengangqiang/Desktop/imgui_dock_cmake/ThirdParty/imgui-docking/imconfig.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

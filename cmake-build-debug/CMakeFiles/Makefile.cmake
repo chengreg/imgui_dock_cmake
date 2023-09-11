@@ -31,12 +31,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ProcessorCount.cmake"
-  "/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/CMakeLists.txt"
-  "/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/CMakeLists.txt"
+  "/Users/chengangqiang/Desktop/imgui_dock_cmake/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
-  "/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/src/Editor/CMakeLists.txt"
+  "/Users/chengangqiang/Desktop/imgui_dock_cmake/src/Editor/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -49,12 +48,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Editor/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/imgui_dock_cmake.dir/DependInfo.cmake"
   "src/Editor/CMakeFiles/Editor.dir/DependInfo.cmake"
-  "Tests/CMakeFiles/Tests.dir/DependInfo.cmake"
   )

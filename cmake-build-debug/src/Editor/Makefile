@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake
+CMAKE_SOURCE_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/src/Editor//CMakeFiles/progress.marks
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles 0
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/src/Editor//CMakeFiles/progress.marks
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/clean
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/preinstall
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/preinstall
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Editor/CMakeFiles/Editor.dir/rule:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/CMakeFiles/Editor.dir/rule
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Editor/CMakeFiles/Editor.dir/rule
 .PHONY : src/Editor/CMakeFiles/Editor.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Editor: src/Editor/CMakeFiles/Editor.dir/rule
 
 # fast build rule for target.
 Editor/fast:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/build
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/build
 .PHONY : Editor/fast
 
 Editor.o: Editor.cpp.o
@@ -135,7 +135,7 @@ Editor.o: Editor.cpp.o
 
 # target to build an object file
 Editor.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/Editor.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/Editor.cpp.o
 .PHONY : Editor.cpp.o
 
 Editor.i: Editor.cpp.i
@@ -143,7 +143,7 @@ Editor.i: Editor.cpp.i
 
 # target to preprocess a source file
 Editor.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/Editor.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/Editor.cpp.i
 .PHONY : Editor.cpp.i
 
 Editor.s: Editor.cpp.s
@@ -151,7 +151,7 @@ Editor.s: Editor.cpp.s
 
 # target to generate assembly for a file
 Editor.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/Editor.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/Editor.cpp.s
 .PHONY : Editor.cpp.s
 
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.o: __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.o
@@ -159,7 +159,7 @@ __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.o: __/__/ThirdParty/imgu
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.o
 
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.i: __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.i
@@ -167,7 +167,7 @@ __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.i: __/__/ThirdParty/imgu
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.i
 
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.s: __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.s
@@ -175,7 +175,7 @@ __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.s: __/__/ThirdParty/imgu
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/backends/imgui_impl_glfw.cpp.s
 
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.o: __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.o
@@ -183,7 +183,7 @@ __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.o: __/__/ThirdParty/i
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.o
 
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.i: __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.i
@@ -191,7 +191,7 @@ __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.i: __/__/ThirdParty/i
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.i
 
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.s: __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.s
@@ -199,7 +199,7 @@ __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.s: __/__/ThirdParty/i
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/backends/imgui_impl_opengl3.cpp.s
 
 __/__/ThirdParty/imgui-docking/imgui.o: __/__/ThirdParty/imgui-docking/imgui.cpp.o
@@ -207,7 +207,7 @@ __/__/ThirdParty/imgui-docking/imgui.o: __/__/ThirdParty/imgui-docking/imgui.cpp
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/imgui.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/imgui.cpp.o
 
 __/__/ThirdParty/imgui-docking/imgui.i: __/__/ThirdParty/imgui-docking/imgui.cpp.i
@@ -215,7 +215,7 @@ __/__/ThirdParty/imgui-docking/imgui.i: __/__/ThirdParty/imgui-docking/imgui.cpp
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/imgui.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/imgui.cpp.i
 
 __/__/ThirdParty/imgui-docking/imgui.s: __/__/ThirdParty/imgui-docking/imgui.cpp.s
@@ -223,7 +223,7 @@ __/__/ThirdParty/imgui-docking/imgui.s: __/__/ThirdParty/imgui-docking/imgui.cpp
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/imgui.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/imgui.cpp.s
 
 __/__/ThirdParty/imgui-docking/imgui_demo.o: __/__/ThirdParty/imgui-docking/imgui_demo.cpp.o
@@ -231,7 +231,7 @@ __/__/ThirdParty/imgui-docking/imgui_demo.o: __/__/ThirdParty/imgui-docking/imgu
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/imgui_demo.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_demo.cpp.o
 
 __/__/ThirdParty/imgui-docking/imgui_demo.i: __/__/ThirdParty/imgui-docking/imgui_demo.cpp.i
@@ -239,7 +239,7 @@ __/__/ThirdParty/imgui-docking/imgui_demo.i: __/__/ThirdParty/imgui-docking/imgu
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/imgui_demo.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_demo.cpp.i
 
 __/__/ThirdParty/imgui-docking/imgui_demo.s: __/__/ThirdParty/imgui-docking/imgui_demo.cpp.s
@@ -247,7 +247,7 @@ __/__/ThirdParty/imgui-docking/imgui_demo.s: __/__/ThirdParty/imgui-docking/imgu
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/imgui_demo.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_demo.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_demo.cpp.s
 
 __/__/ThirdParty/imgui-docking/imgui_draw.o: __/__/ThirdParty/imgui-docking/imgui_draw.cpp.o
@@ -255,7 +255,7 @@ __/__/ThirdParty/imgui-docking/imgui_draw.o: __/__/ThirdParty/imgui-docking/imgu
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/imgui_draw.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_draw.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_draw.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_draw.cpp.o
 
 __/__/ThirdParty/imgui-docking/imgui_draw.i: __/__/ThirdParty/imgui-docking/imgui_draw.cpp.i
@@ -263,7 +263,7 @@ __/__/ThirdParty/imgui-docking/imgui_draw.i: __/__/ThirdParty/imgui-docking/imgu
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/imgui_draw.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_draw.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_draw.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_draw.cpp.i
 
 __/__/ThirdParty/imgui-docking/imgui_draw.s: __/__/ThirdParty/imgui-docking/imgui_draw.cpp.s
@@ -271,7 +271,7 @@ __/__/ThirdParty/imgui-docking/imgui_draw.s: __/__/ThirdParty/imgui-docking/imgu
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/imgui_draw.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_draw.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_draw.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_draw.cpp.s
 
 __/__/ThirdParty/imgui-docking/imgui_tables.o: __/__/ThirdParty/imgui-docking/imgui_tables.cpp.o
@@ -279,7 +279,7 @@ __/__/ThirdParty/imgui-docking/imgui_tables.o: __/__/ThirdParty/imgui-docking/im
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/imgui_tables.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_tables.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_tables.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_tables.cpp.o
 
 __/__/ThirdParty/imgui-docking/imgui_tables.i: __/__/ThirdParty/imgui-docking/imgui_tables.cpp.i
@@ -287,7 +287,7 @@ __/__/ThirdParty/imgui-docking/imgui_tables.i: __/__/ThirdParty/imgui-docking/im
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/imgui_tables.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_tables.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_tables.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_tables.cpp.i
 
 __/__/ThirdParty/imgui-docking/imgui_tables.s: __/__/ThirdParty/imgui-docking/imgui_tables.cpp.s
@@ -295,7 +295,7 @@ __/__/ThirdParty/imgui-docking/imgui_tables.s: __/__/ThirdParty/imgui-docking/im
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/imgui_tables.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_tables.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_tables.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_tables.cpp.s
 
 __/__/ThirdParty/imgui-docking/imgui_widgets.o: __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.o
@@ -303,7 +303,7 @@ __/__/ThirdParty/imgui-docking/imgui_widgets.o: __/__/ThirdParty/imgui-docking/i
 
 # target to build an object file
 __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.o:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_widgets.cpp.o
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_widgets.cpp.o
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.o
 
 __/__/ThirdParty/imgui-docking/imgui_widgets.i: __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.i
@@ -311,7 +311,7 @@ __/__/ThirdParty/imgui-docking/imgui_widgets.i: __/__/ThirdParty/imgui-docking/i
 
 # target to preprocess a source file
 __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.i:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_widgets.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_widgets.cpp.i
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.i
 
 __/__/ThirdParty/imgui-docking/imgui_widgets.s: __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.s
@@ -319,7 +319,7 @@ __/__/ThirdParty/imgui-docking/imgui_widgets.s: __/__/ThirdParty/imgui-docking/i
 
 # target to generate assembly for a file
 __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.s:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_widgets.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/__/__/ThirdParty/imgui-docking/imgui_widgets.cpp.s
 .PHONY : __/__/ThirdParty/imgui-docking/imgui_widgets.cpp.s
 
 # Help Target
@@ -366,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

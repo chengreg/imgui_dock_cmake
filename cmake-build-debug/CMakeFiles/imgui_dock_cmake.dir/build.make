@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake
+CMAKE_SOURCE_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imgui_dock_cmake.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/imgui_dock_cmake.dir/progress.make
 include CMakeFiles/imgui_dock_cmake.dir/flags.make
 
 CMakeFiles/imgui_dock_cmake.dir/main.cpp.o: CMakeFiles/imgui_dock_cmake.dir/flags.make
-CMakeFiles/imgui_dock_cmake.dir/main.cpp.o: /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/main.cpp
+CMakeFiles/imgui_dock_cmake.dir/main.cpp.o: /Users/chengangqiang/Desktop/imgui_dock_cmake/main.cpp
 CMakeFiles/imgui_dock_cmake.dir/main.cpp.o: CMakeFiles/imgui_dock_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgui_dock_cmake.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui_dock_cmake.dir/main.cpp.o -MF CMakeFiles/imgui_dock_cmake.dir/main.cpp.o.d -o CMakeFiles/imgui_dock_cmake.dir/main.cpp.o -c /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imgui_dock_cmake.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imgui_dock_cmake.dir/main.cpp.o -MF CMakeFiles/imgui_dock_cmake.dir/main.cpp.o.d -o CMakeFiles/imgui_dock_cmake.dir/main.cpp.o -c /Users/chengangqiang/Desktop/imgui_dock_cmake/main.cpp
 
 CMakeFiles/imgui_dock_cmake.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui_dock_cmake.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/main.cpp > CMakeFiles/imgui_dock_cmake.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chengangqiang/Desktop/imgui_dock_cmake/main.cpp > CMakeFiles/imgui_dock_cmake.dir/main.cpp.i
 
 CMakeFiles/imgui_dock_cmake.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui_dock_cmake.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/main.cpp -o CMakeFiles/imgui_dock_cmake.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengangqiang/Desktop/imgui_dock_cmake/main.cpp -o CMakeFiles/imgui_dock_cmake.dir/main.cpp.s
 
 # Object files for target imgui_dock_cmake
 imgui_dock_cmake_OBJECTS = \
@@ -93,11 +93,9 @@ imgui_dock_cmake_EXTERNAL_OBJECTS =
 imgui_dock_cmake: CMakeFiles/imgui_dock_cmake.dir/main.cpp.o
 imgui_dock_cmake: CMakeFiles/imgui_dock_cmake.dir/build.make
 imgui_dock_cmake: src/Editor/libEditor.a
-imgui_dock_cmake: Tests/libTests.a
-imgui_dock_cmake: /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/ThirdParty/glfw-3.3.8/build-mac/src/libglfw3.a
-imgui_dock_cmake: /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/ThirdParty/freetype/build/libfreetype.a
+imgui_dock_cmake: /Users/chengangqiang/Desktop/imgui_dock_cmake/ThirdParty/glfw-3.3.8/build-mac/src/libglfw3.a
 imgui_dock_cmake: CMakeFiles/imgui_dock_cmake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable imgui_dock_cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable imgui_dock_cmake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui_dock_cmake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +107,6 @@ CMakeFiles/imgui_dock_cmake.dir/clean:
 .PHONY : CMakeFiles/imgui_dock_cmake.dir/clean
 
 CMakeFiles/imgui_dock_cmake.dir/depend:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles/imgui_dock_cmake.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chengangqiang/Desktop/imgui_dock_cmake /Users/chengangqiang/Desktop/imgui_dock_cmake /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles/imgui_dock_cmake.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imgui_dock_cmake.dir/depend
 

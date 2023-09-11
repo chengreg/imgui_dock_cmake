@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake
+CMAKE_SOURCE_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Tests/CMakeFiles/Tests.dir/depend.make
@@ -70,18 +70,18 @@ include Tests/CMakeFiles/Tests.dir/progress.make
 include Tests/CMakeFiles/Tests.dir/flags.make
 
 Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o: Tests/CMakeFiles/Tests.dir/flags.make
-Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o: /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/test_freetype.cpp
+Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o: /Users/chengangqiang/Desktop/imgui_dock_cmake/Tests/test_freetype.cpp
 Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o: Tests/CMakeFiles/Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o"
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o -MF CMakeFiles/Tests.dir/test_freetype.cpp.o.d -o CMakeFiles/Tests.dir/test_freetype.cpp.o -c /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/test_freetype.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o"
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o -MF CMakeFiles/Tests.dir/test_freetype.cpp.o.d -o CMakeFiles/Tests.dir/test_freetype.cpp.o -c /Users/chengangqiang/Desktop/imgui_dock_cmake/Tests/test_freetype.cpp
 
 Tests/CMakeFiles/Tests.dir/test_freetype.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tests.dir/test_freetype.cpp.i"
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/test_freetype.cpp > CMakeFiles/Tests.dir/test_freetype.cpp.i
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chengangqiang/Desktop/imgui_dock_cmake/Tests/test_freetype.cpp > CMakeFiles/Tests.dir/test_freetype.cpp.i
 
 Tests/CMakeFiles/Tests.dir/test_freetype.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tests.dir/test_freetype.cpp.s"
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests/test_freetype.cpp -o CMakeFiles/Tests.dir/test_freetype.cpp.s
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chengangqiang/Desktop/imgui_dock_cmake/Tests/test_freetype.cpp -o CMakeFiles/Tests.dir/test_freetype.cpp.s
 
 # Object files for target Tests
 Tests_OBJECTS = \
@@ -93,19 +93,19 @@ Tests_EXTERNAL_OBJECTS =
 Tests/libTests.a: Tests/CMakeFiles/Tests.dir/test_freetype.cpp.o
 Tests/libTests.a: Tests/CMakeFiles/Tests.dir/build.make
 Tests/libTests.a: Tests/CMakeFiles/Tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libTests.a"
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests && $(CMAKE_COMMAND) -P CMakeFiles/Tests.dir/cmake_clean_target.cmake
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libTests.a"
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests && $(CMAKE_COMMAND) -P CMakeFiles/Tests.dir/cmake_clean_target.cmake
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Tests/CMakeFiles/Tests.dir/build: Tests/libTests.a
 .PHONY : Tests/CMakeFiles/Tests.dir/build
 
 Tests/CMakeFiles/Tests.dir/clean:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests && $(CMAKE_COMMAND) -P CMakeFiles/Tests.dir/cmake_clean.cmake
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests && $(CMAKE_COMMAND) -P CMakeFiles/Tests.dir/cmake_clean.cmake
 .PHONY : Tests/CMakeFiles/Tests.dir/clean
 
 Tests/CMakeFiles/Tests.dir/depend:
-	cd /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/Tests /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/Tests/CMakeFiles/Tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chengangqiang/Desktop/imgui_dock_cmake /Users/chengangqiang/Desktop/imgui_dock_cmake/Tests /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/Tests/CMakeFiles/Tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Tests/CMakeFiles/Tests.dir/depend
 

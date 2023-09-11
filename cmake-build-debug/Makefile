@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake
+CMAKE_SOURCE_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/dev/LearnCenter/imgui_dock_cmake/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chengangqiang/Desktop/imgui_dock_cmake/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,19 +142,6 @@ Editor/fast:
 	$(MAKE) $(MAKESILENT) -f src/Editor/CMakeFiles/Editor.dir/build.make src/Editor/CMakeFiles/Editor.dir/build
 .PHONY : Editor/fast
 
-#=============================================================================
-# Target rules for targets named Tests
-
-# Build rule for target.
-Tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tests
-.PHONY : Tests
-
-# fast build rule for target.
-Tests/fast:
-	$(MAKE) $(MAKESILENT) -f Tests/CMakeFiles/Tests.dir/build.make Tests/CMakeFiles/Tests.dir/build
-.PHONY : Tests/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -188,7 +175,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Editor"
-	@echo "... Tests"
 	@echo "... imgui_dock_cmake"
 	@echo "... main.o"
 	@echo "... main.i"
